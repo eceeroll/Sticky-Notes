@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Indie+Flower&family=Oleo+Script+Swash+Caps&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Indie Flower", cursive;
+  background-color: #e7bc91;
+  font-size: 21px;
+}
+
+.main-container {
+  width: 95%;
+  margin: auto;
+}
+
+.container1 {
+  margin-left: 3%;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 3%;
+}
+
+.container3 {
+  /* display:none; */
+  position: absolute;
+  top: 26%;
+  left: 40%;
+}
+
+textarea {
+  box-shadow: 15px 15px 24px 0px rgb(6, 1, 1);
+  outline: none;
+  border: none;
+  width: 275px;
+  height: 275px;
+  padding: 40px 27px 27px 27px;
+  font-weight: 700;
+}
+
+svg {
+  color: gray;
+}
+
+#check-icon {
+  position: absolute;
+  right: 17%;
+  top: 4%;
+  cursor: pointer;
+  color: green;
+}
+
+#x-icon {
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  cursor: pointer;
+  font-weight: 800;
+  color: black;
+}
+
+.note {
+  width: 300px;
+  height: 250px;
+  transition: 2s;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.75);
+}
+
+.note h1 {
+  font-size: 1.5rem;
+}
+
+.details {
+  margin-top: 25px;
+  padding: 0 15px;
+  font-size: 1.5rem;
+}
+
+.details i {
+  color: whitesmoke;
+  cursor: pointer;
+  text-shadow: 1px 1px #bbb;
+}
